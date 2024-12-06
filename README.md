@@ -52,7 +52,7 @@ Abaixo está a estrutura de pastas e arquivos do projeto:
 
 ## 🎨 Estilo
 
-O design utiliza tons de azul e branco para um visual limpo e amigável, com foco em legibilidade. Todo o CSS é básico, utilizando apenas **px** e **%** para espaçamentos e tamanhos.
+O design utiliza tons de azul e branco para um visual limpo e amigável, com foco em legibilidade. Todo o CSS é básico.
 
 ---
 
