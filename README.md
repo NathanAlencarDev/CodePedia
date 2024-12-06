@@ -59,7 +59,7 @@ O design utiliza tons de azul e branco para um visual limpo e amigável, com foc
 ## 🖥️ Pré-visualização
 
 ### Página Inicial:
-![Preview](assets/images/codepedia-preview.jpg)
+![Preview](assets/images/codepedia-preview.png)
 
 ---
 
