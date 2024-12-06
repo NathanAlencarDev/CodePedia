@@ -1,0 +1,160 @@
+body, h1, h2, h3, p, ul, li, a, header, nav, main, footer, aside, section {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+
+a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+header {
+    background-color: #0066cc;
+    color: white;
+    padding: 16px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    display: block;
+}
+
+header .search-bar {
+    display: flex;
+    align-items: center;
+}
+
+header .search-bar input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    width: 300px;
+}
+
+header .search-bar button {
+    padding: 8px;
+    border: none;
+    background-color: #004d99;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+header .search-bar button:hover {
+    background-color: #003366;
+}
+
+
+nav.bar {
+    background-color: #004d99;
+    padding: 8px 32px;
+}
+
+nav.bar ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+nav.bar ul li a {
+    color: white;
+    padding: 8px;
+}
+
+nav.bar ul li a:hover {
+    background-color: #003366;
+    border-radius: 5px;
+}
+
+
+.content {
+    display: flex;
+    padding: 32px;
+    gap: 32px;
+}
+
+.sidebar, .anchors {
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+
+.sidebar h2, .anchors h2 {
+    margin-bottom: 16px;
+    color: #0066cc;
+}
+
+.sidebar ul, .anchors ul {
+    list-style: none;
+}
+
+.sidebar ul li, .anchors ul li {
+    margin-bottom: 8px;
+}
+
+.sidebar ul li a, .anchors ul li a {
+    color: #333;
+}
+
+.sidebar ul li a:hover, .anchors ul li a:hover {
+    color: #0066cc;
+}
+
+.main {
+    flex: 3;
+    background-color: #fff;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.main h1 {
+    color: #0066cc;
+    margin-bottom: 16px;
+}
+
+.main article {
+    margin-top: 16px;
+}
+
+.main article h2 {
+    margin-bottom: 8px;
+    color: #004d99;
+}
+
+
+footer.footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    margin-top: 32px;
+    font-size: 14px;
+}
+
+footer.footer a {
+    color: #66b3ff;
+}
+
+footer.footer a:hover {
+    color: #ffffff;
+}
